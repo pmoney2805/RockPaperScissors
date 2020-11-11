@@ -1,0 +1,40 @@
+input1 = "rock"
+input2 = "scissors"
+input3 = "paper"
+input3 = "gun"
+
+number_1 = input("Player 1: enter your play (rock, paper, or scissors):")
+number_2 = input("Player 2: enter your play (rock, paper, or scissors):")
+
+if number_1 == "rock":
+  if number_2 == "scissors":
+    print("Player 1 wins")
+
+if number_1 == "scissors":
+  if number_2 == "rock":
+    print("Player 2 wins")
+
+if number_1 == "paper":
+  if number_2 == "scissors":
+    print("Player 2 wins")
+
+if number_1 == "scissors":
+  if number_2 == "paper":
+    print("Player 1 wins")
+
+if number_1 == "rock":
+  if number_2 == "paper":
+    print("Player 2 wins")
+
+if number_1 == "paper":
+  if number_2 == "rock":
+    print("Player 1 wins")
+
+if number_1 == "gun":
+  print("Player 1 wins")
+
+if number_2 == "gun":
+  print("Player 2 wins")
+
+if number_1 == number_2:
+  print("tie")
